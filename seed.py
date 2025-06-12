@@ -1,7 +1,6 @@
 from faker import Faker
 import random
 from datetime import timedelta
-from sqlalchemy import create_engine
 from models import db, Author, Book, Category, Member, Borrowing_record
 from datetime import date
 from app import app
